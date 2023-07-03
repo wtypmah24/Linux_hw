@@ -1,0 +1,12 @@
+   0 mkdir -p /home/animals/cats && mkdir -p /home/animals/dogs && mkdir -p /home/animals/fish
+   1 touch /home/animals/cats/garfield.txt && touch /home/animals/dogs/pluto.txt && touch /home/animals/fish/nemo.txt
+   2 tree /home
+   3 touch /tmp/adam.txt
+   4 mkdir /home/humans && cp /tmp/adam.txt /home/humans
+   5 tree /home
+   6 touch /tmp/evA.txt
+   7 mv /tmp/evA.txt /opt/eva.txt
+   8 mv /opt/eva.txt /home/humans
+   9 ls /home/humans
+  10 history
+  11 history > history_hw_03.txt
